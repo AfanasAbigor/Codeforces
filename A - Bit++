@@ -1,0 +1,25 @@
+    #include<stdio.h>
+     
+    int main(){
+     
+    int test,i,ans=0;
+    char blaka[10];
+     
+    scanf("%d",&test);
+     
+    while(test--){
+     
+        scanf("%s",&blaka);
+     
+        if (blaka[0]=='+'||blaka[1]=='+'||blaka[2]=='+'){
+                ans = ans + 1;
+        }
+     
+        else{
+                ans = ans - 1;
+        }
+    }
+    printf("%d\n",ans);
+    return 0;
+    }
+    //666Lucifer666
