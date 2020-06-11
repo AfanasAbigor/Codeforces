@@ -1,0 +1,25 @@
+    #include<iostream>
+     
+    using namespace std;
+     
+    int main(){
+    	
+    int x,i,pl=0;
+     
+    string color;
+     
+    cin>>x>>color;
+     
+     
+    for(i=0; i<x; i++){
+    	
+    	if(color[i]==color[i+1]){
+    		
+    		pl++;
+    	}
+    	
+    }	
+    	
+    	cout<<pl<<endl;
+    	return 0;
+    }
