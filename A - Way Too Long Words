@@ -1,0 +1,31 @@
+    #include<stdio.h>
+     
+    int main(){
+     
+    int n,i;
+    char t[100];
+     
+    scanf("%d",&n);
+     
+    for(i=1; i<=n; i++){
+     
+     
+    scanf("%s",&t);
+     
+    int length = strlen(t);
+     
+     
+    if(length>10){
+     
+    printf("%c%d%c\n",t[0],length-2,t[length-1]);
+     
+    }
+     
+    else{
+     
+    	printf("%s\n",t);
+    }
+     
+    }
+    	return 0;
+    }
