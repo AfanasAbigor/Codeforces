@@ -1,0 +1,19 @@
+    #include<stdio.h>
+     
+    int main(){
+     
+    int a,b,r1,r2,r3;
+     
+    scanf("%d%d",&a,&b);
+     
+    r1 = a * b;
+    r2 = 1 * 2;
+     
+    r3 = r1/r2;
+     
+    printf("%d\n",r3);
+     
+    return 0;
+    }
+    
+    //666Lucifer666
