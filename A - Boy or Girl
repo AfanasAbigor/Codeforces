@@ -1,0 +1,38 @@
+    #include<iostream>
+    #include<string>
+    #include<algorithm>
+     
+    using namespace std;
+     
+    int main(){
+    	
+    	string word;
+    	cin>>word;
+    	int i,st=0;
+    	
+    	sort( word.begin(), word.end() );
+    	
+    	
+    	for(i=0; i<word.length(); i++){
+    		
+    		if( word[i]==word[i+1] ){
+    			
+    			continue;
+    		}
+    		
+    		st++;
+    		
+    	}
+    	
+    	if( st%2==0 ) {
+    		
+    		cout<<"CHAT WITH HER!"<<endl;
+    	}
+    	
+    	else{
+    		 cout<<"IGNORE HIM!"<<endl;
+    	}
+     
+    	return 0;
+    }
+    //666Lucifer666
