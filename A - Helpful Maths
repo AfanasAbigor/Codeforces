@@ -1,0 +1,33 @@
+    #include<iostream>
+    #include<string>
+    using namespace std;
+     
+    int main(){
+    	
+    	string arr;
+    	
+    	int i,j;
+    	
+    	cin>>arr;
+    	
+    	int len = arr.length();
+    	
+    	for(j=0; j<len; j+=2){
+    		
+    			for(i=0; i<len-1; i+=2){
+    		
+    		if(arr[i]>arr[i+2]){
+    			
+    			swap(arr[i],arr[i+2]);
+    		}
+    		
+    	  }
+    		
+    	}
+    	
+     
+    	cout<<arr<<endl;
+    	
+    	return 0;
+    }
+    //666Lucifer666
