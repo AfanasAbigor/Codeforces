@@ -1,0 +1,30 @@
+    #include<stdio.h>
+    #include<string.h>
+    #include<ctype.h>
+     
+    int main(){
+     
+    	char input[100];
+    	int i;
+    	scanf("%s",input);
+     
+    	int length = strlen(input);
+     
+    	for(i=0; i<=length-1; i++){
+     
+       if (input[i]=='a' || input[i] =='o' || input[i] =='y' || input[i] =='e' || input[i] =='u' || input[i] =='i' || input[i]=='A' || input[i] =='O' || input[i] =='Y' || input[i] =='E' || input[i] =='U' || input[i] =='I')
+     
+    continue;
+     
+    else{
+     
+    	printf(".%c",tolower(input[i]) );
+    }
+     
+     
+    	}
+     
+     
+    	return 0;
+    }
+    //666Lucifer666
