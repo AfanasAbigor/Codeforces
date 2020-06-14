@@ -27,4 +27,8 @@ for(i=1; i<=t; i++){ //t times loop
 	
 cout<<s<<endl;
 	
+return 0;
+	
 }
+
+//666Lucifer666
